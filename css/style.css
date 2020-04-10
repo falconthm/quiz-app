@@ -1,0 +1,231 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*
+body {
+     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+*/
+
+/*-----------log-in page--------------*/
+
+html,body{
+    background-image: url(https://picsum.photos/1262/907?random=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3{
+    color: white;
+}
+
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+}
+
+
+.remember{
+    color: white;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+
+
+
+
+
+
+/*---------------------Body-----------------------------------------*/
+
+
+
+a {
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.top-menu{
+    background: #F2C078;
+    color: Black;
+    margin-bottom: 0px;
+    
+}
+.col-md-6{
+    text-align: right ;
+    font-family: sans-serif;
+}
+.row{
+    padding: 0px 0;
+
+}
+
+.top-menu a{
+    color: black;
+}
+
+.box{
+    border: 0px solid #333;
+    padding: 20px;
+    background: #5a848b85;
+    color: #333;
+    text-align: center;
+    margin: 15px 0;
+    font-family : "sans-serif";
+    font-size: 20px;
+}
+
+
+.option{
+    background: linear-gradient(rgba(241, 255, 250, .5), rgba(0, 123, 255, 0.25)), url(https://picsum.photos/1262/907?random=1) no-repeat;
+    background-size: cover;
+    /*background: antiquewhite;*/
+    padding: 20px 0;
+    height: 87vh;
+}
+
+/*-------------------------------footer-----------------------------------------------*/
+
+footer {
+    text-align: center;
+}
+
+footer {
+    background: #F2C078;
+    color: Black;
+    display: block;
+    overflow: hidden;
+    font-family:"sans-serif";
+}
+footer .float-left{
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 18px;
+}
+footer .float-right{
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+/* ----------------------------------Navigation bar-------------------------------------*/
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
+.navbar{
+padding: 0px;
+}
+
+/*------------------------------------------Admin panel-----------------------------------------------------*/
+.nav-item-right{
+    margin-right:10px ;
+}
+
+/* Navbar */
+.navbar{
+    min-height: 33px !important;
+    margin-bottom:0;
+    border-radius:0;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+    padding-top:6px !important;
+    padding-bottom:0 !important;
+    height: 33px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .option{
+        height: auto;
+    }
+}
