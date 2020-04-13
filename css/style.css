@@ -14,8 +14,8 @@ body {
 
 /*-----------log-in page--------------*/
 
-html,body{
-    background-image: url(https://picsum.photos/1262/907?random=1);
+.login {
+    background: url("../images/login1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -229,3 +229,37 @@ padding: 0px;
         height: auto;
     }
 }
+
+
+.bg-info{
+    padding :4px 0px;
+}
+.quiz-panel .container-fluid{
+    height: 85vh;
+}
+.content {
+    margin-top:54px;
+}
+.header {padding:15px; position:fixed; top:0; width:100%; z-index:9999; }
+.left-title {
+    width:80px;
+    color:#FFF;
+    font-size:18px;
+    float:left;
+    margin-left: 651px;
+}
+.right-title {
+    width:150px;
+    text-align:right;
+    float:right;
+    color:#FFF;
+    margin-right: 10px;
+}
+.quiz-body { margin-top:15px; padding-bottom:50px; }
+.option-block-container { margin-top:20px; max-width:420px; }
+.option-block { padding:10px; background:aliceblue; border:1px solid #84c5fe; margin-bottom:10px; cursor:pointer; }
+.result-question { font-weight:bold; }
+.c-wrong { margin-left:20px; color:#FF0000; }
+.c-correct {  margin-left:20px; color:green; }
+.last-row { border-bottom:1px solid #ccc; padding-bottom:25px; margin-bottom:25px; }
+.res-header { border-bottom:1px solid #ccc; margin-bottom:15px; padding-bottom:15px; }
