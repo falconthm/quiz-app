@@ -12,14 +12,16 @@ body {
 
 */
 
-/*-----------log-in page--------------*/
+/*----------------------------------------------------------log-in page---------------------------------------------*/
 
 .login {
-    background: url("../images/login1.jpg");
+    background: url("../images/login1.jpg") no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 100%;
     font-family: 'Numans', sans-serif;
+}
+.login-close i{
+    color: whitesmoke;
 }
 
 .container{
@@ -28,7 +30,7 @@ body {
 }
 
 .card{
-    height: 370px;
+    height: 280px;
     margin-top: auto;
     margin-bottom: auto;
     width: 400px;
@@ -38,7 +40,7 @@ body {
 .social_icon span{
     font-size: 60px;
     margin-left: 10px;
-    color: #FFC312;
+    color: dodgerblue;
 }
 
 .social_icon span:hover{
@@ -58,7 +60,7 @@ body {
 
 .input-group-prepend span{
     width: 50px;
-    background-color: #FFC312;
+    background-color: dodgerblue;
     color: black;
     border:0 !important;
 }
@@ -78,7 +80,7 @@ body {
 
 .login_btn{
     color: black;
-    background-color: #FFC312;
+    background-color: dodgerblue;
     width: 100px;
 }
 
@@ -204,21 +206,78 @@ padding: 0px;
 }
 
 /*------------------------------------------Admin panel-----------------------------------------------------*/
-.nav-item-right{
-    margin-right:10px ;
-}
 
-/* Navbar */
-.navbar{
-    min-height: 33px !important;
-    margin-bottom:0;
-    border-radius:0;
-}
 
-.navbar-nav > li > a, .navbar-brand{
-    padding-top:6px !important;
-    padding-bottom:0 !important;
-    height: 33px;
+
+
+
+
+/*-----------------------------------------------------Quiz page--------------------------------------------*/
+.bg-info{
+    padding :4px 0px;
+}
+.quiz-panel .container-fluid{
+    height: 85vh;
+}
+.content {
+    margin-top:54px;
+}
+.header {
+    padding:15px;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:9999;
+}
+.left-title {
+    width:80px;
+    color:#FFF;
+    font-size:18px;
+    float:left;
+    margin-left: 651px;
+}
+.right-title{
+    width:150px;
+    text-align:right;
+    float:right;
+    color:#FFF;
+    margin-right: 10px;
+}
+.quiz-body{
+    margin-top:15px;
+    padding-bottom:50px;
+}
+.option-block-container{
+    margin-top:20px;
+    max-width:420px;
+}
+.option-block {
+    padding:10px;
+    background:aliceblue;
+    border:1px solid #84c5fe;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+.result-question {
+    font-weight:bold;
+}
+.c-wrong {
+    margin-left:20px;
+    color:#FF0000;
+}
+.c-correct {
+    margin-left:20px;
+    color:green;
+}
+.last-row {
+    border-bottom:1px solid #ccc;
+    padding-bottom:25px;
+    margin-bottom:25px;
+}
+.res-header {
+    border-bottom:1px solid #ccc;
+    margin-bottom:15px;
+    padding-bottom:15px;
 }
 
 
@@ -229,37 +288,3 @@ padding: 0px;
         height: auto;
     }
 }
-
-
-.bg-info{
-    padding :4px 0px;
-}
-.quiz-panel .container-fluid{
-    height: 85vh;
-}
-.content {
-    margin-top:54px;
-}
-.header {padding:15px; position:fixed; top:0; width:100%; z-index:9999; }
-.left-title {
-    width:80px;
-    color:#FFF;
-    font-size:18px;
-    float:left;
-    margin-left: 651px;
-}
-.right-title {
-    width:150px;
-    text-align:right;
-    float:right;
-    color:#FFF;
-    margin-right: 10px;
-}
-.quiz-body { margin-top:15px; padding-bottom:50px; }
-.option-block-container { margin-top:20px; max-width:420px; }
-.option-block { padding:10px; background:aliceblue; border:1px solid #84c5fe; margin-bottom:10px; cursor:pointer; }
-.result-question { font-weight:bold; }
-.c-wrong { margin-left:20px; color:#FF0000; }
-.c-correct {  margin-left:20px; color:green; }
-.last-row { border-bottom:1px solid #ccc; padding-bottom:25px; margin-bottom:25px; }
-.res-header { border-bottom:1px solid #ccc; margin-bottom:15px; padding-bottom:15px; }

@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -26,6 +27,12 @@
     <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="falconthm" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="quiz" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1ZPJG37zDtVOHF5VqhiclxjSnv3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,7 +53,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,6 +78,12 @@
       <workItem from="1586153829356" duration="17774000" />
       <workItem from="1586505204154" duration="5523000" />
       <workItem from="1586768468723" duration="8353000" />
+      <workItem from="1586776866875" duration="393000" />
+      <workItem from="1586777274437" duration="1487000" />
+      <workItem from="1586949499594" duration="930000" />
+      <workItem from="1587023057130" duration="5560000" />
+      <workItem from="1588838154985" duration="86623000" />
+      <workItem from="1589446495859" duration="301000" />
     </task>
     <servers />
   </component>
@@ -100,6 +113,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="313" y="122" key="#Inspections" timestamp="1587031662613">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="122" key="#Inspections/0.0.1440.920@0.0.1440.920" timestamp="1587031662613" />
     <state x="313" y="122" key="#Notifications" timestamp="1585927525358">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -108,6 +125,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="176" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1585923630375" />
+    <state x="451" y="211" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589446937476">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="451" y="211" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920/2160.0.1680.1010@0.0.1440.920" timestamp="1589446937476" />
     <state x="501" y="218" key="FileChooserDialogImpl" timestamp="1585926350058">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -117,14 +138,23 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="537" y="340" key="Github.CreatePullRequestDialog/0.0.1440.920@0.0.1440.920" timestamp="1585925589601" />
-    <state x="224" y="106" key="SettingsEditor" timestamp="1585924456553">
+    <state x="224" y="106" key="SettingsEditor" timestamp="1589298046484">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
+    <state x="224" y="106" key="SettingsEditor/0.0.1440.920/2160.0.1680.1010@0.0.1440.920" timestamp="1589298046484" />
     <state x="224" y="106" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1585924456553" />
+    <state width="242" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1588939995660">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="242" height="198" key="ShowFilterAction_Filter_Popup/0.0.1440.920/2160.0.1680.1010@0.0.1440.920" timestamp="1588939995660" />
     <state x="93" y="93" width="1255" height="735" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585923622089">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="93" y="93" width="1255" height="735" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.920@0.0.1440.920" timestamp="1585923622089" />
+    <state x="391" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588930480084">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="391" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.920/2160.0.1680.1010@0.0.1440.920" timestamp="1588930480084" />
     <state x="532" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585926379060">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -133,10 +163,11 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="545" y="340" key="git4idea.rebase.GitRebaseDialog/0.0.1440.920@0.0.1440.920" timestamp="1585925492950" />
-    <state x="383" y="195" key="search.everywhere.popup" timestamp="1584969578030">
+    <state x="455" y="191" width="672" height="678" key="search.everywhere.popup" timestamp="1589296935170">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="383" y="195" key="search.everywhere.popup/0.0.1440.920/2160.0.1680.1010@0.0.1440.920" timestamp="1584969578030" />
+    <state x="455" y="191" width="672" height="678" key="search.everywhere.popup/0.0.1440.920/2160.0.1680.1010@0.0.1440.920" timestamp="1589296935170" />
+    <state x="455" y="191" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1588956384814" />
     <state x="551" y="255" key="svn.repositoryBrowser" timestamp="1585925599383">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
