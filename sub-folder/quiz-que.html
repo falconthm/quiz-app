@@ -10,8 +10,8 @@
     <title>Welcome to Quiz</title>
 </head>
 
+
 <section>
-<header>
     <div class="top-menu">
         <div class="container-fluid">
             <div class="row">
@@ -20,11 +20,12 @@
                     <a href="#">DE</a>
                 </div>
                 <div class="col-6">
-                    <a class="float-right" href="sub-folder/log-in.html">Login <i class="fas fa-sign-in-alt"></i></a>
+                    <a class="float-right" href="log-in.html">Login <i class="fas fa-sign-in-alt"></i></a>
                 </div>
             </div>
         </div>
     </div>
+</section>
     <!-- ------------------------------Navigation Bar------------------------------------------->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -118,7 +119,6 @@
             </ul>
         </div>
     </nav>
-</header>
 <!---------------------------------------------Question panel-------------------------------------------------->
 <section class="bg-info">
 <div class="left-title">Lecture 1</div>
@@ -197,8 +197,7 @@
     return false;
 });
 
-/* Created and coded by Abhilash Narayan */
-/* Quiz source: w3schools.com */
+
 
 var quiz = { "JS" : [
         {
@@ -534,9 +533,6 @@ var quiz = { "JS" : [
         }
     ]
 }
-
-
-
 var quizApp = function() {
 
     this.score = 0;
@@ -552,8 +548,6 @@ var quizApp = function() {
             $("#previous").attr("disabled", false);
             $("#next").attr("disabled", false);
             $("#qid").html(quiz.JS[this.currentque].id + '.');
-
-
             $("#question").html(quiz.JS[this.currentque].question);
             $("#question-options").html("");
             for (var key in quiz.JS[this.currentque].options[0]) {
@@ -646,9 +640,6 @@ $(document).ready(function() {
 
 });
 
-
-
-
 $('#next').click(function(e) {
     e.preventDefault();
     if(selectedopt) {
@@ -665,12 +656,5 @@ $('#previous').click(function(e) {
     jsq.changeQuestion(-1);
 });
 
-
-
-
-
 </script>
-
-
-</body>
 </html>
