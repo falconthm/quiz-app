@@ -83,7 +83,8 @@
       <workItem from="1586949499594" duration="930000" />
       <workItem from="1587023057130" duration="5560000" />
       <workItem from="1588838154985" duration="86623000" />
-      <workItem from="1589446495859" duration="301000" />
+      <workItem from="1589446495859" duration="5540000" />
+      <workItem from="1589929827151" duration="20884000" />
     </task>
     <servers />
   </component>
@@ -113,9 +114,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="122" key="#Inspections" timestamp="1587031662613">
+    <state x="313" y="122" key="#Inspections" timestamp="1589449621828">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
+    <state x="313" y="122" key="#Inspections/0.0.1440.920/2160.0.1680.1010@0.0.1440.920" timestamp="1589449621828" />
     <state x="313" y="122" key="#Inspections/0.0.1440.920@0.0.1440.920" timestamp="1587031662613" />
     <state x="313" y="122" key="#Notifications" timestamp="1585927525358">
       <screen x="0" y="0" width="1440" height="920" />
@@ -163,10 +165,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="545" y="340" key="git4idea.rebase.GitRebaseDialog/0.0.1440.920@0.0.1440.920" timestamp="1585925492950" />
-    <state x="455" y="191" width="672" height="678" key="search.everywhere.popup" timestamp="1589296935170">
+    <state x="455" y="191" width="672" height="678" key="search.everywhere.popup" timestamp="1589936559273">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="455" y="191" width="672" height="678" key="search.everywhere.popup/0.0.1440.920/2160.0.1680.1010@0.0.1440.920" timestamp="1589296935170" />
+    <state x="455" y="191" width="672" height="678" key="search.everywhere.popup/0.0.1440.920/2160.0.1680.1010@0.0.1440.920" timestamp="1589936559273" />
     <state x="455" y="191" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1588956384814" />
     <state x="551" y="255" key="svn.repositoryBrowser" timestamp="1585925599383">
       <screen x="0" y="0" width="1440" height="920" />
