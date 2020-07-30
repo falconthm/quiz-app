@@ -13,7 +13,7 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler ml-auto mb-2 bg-light" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <button class="navbar-toggler ml-auto mb-2 37vf9qbg-light" type="button" data-toggle="collapse" data-target="#myNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -27,30 +27,15 @@
                          <a href="#" class="text-white"> Rashid </a>
                    </div>
                    <ul class="navbar-nav flex-column ">
-                       <li class="navbar-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-house-user text-light fa-lg mr-3"></i>Dashboard</a></li>
-                   </ul>
-                   <ul class="navbar-nav flex-column">
-                       <li class="navbar-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-user-alt text-light fa-lg mr-3"></i> Profile</a></li>
-                   </ul>
-                   <ul class="navbar-nav flex-column">
-                      <li class="navbar-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-question-circle text-light fa-lg mr-3"></i> Questions </a></li>
-                   </ul>
-                   <ul class="navbar-nav flex-column">
-                       <li class="navbar-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-chart-line text-light fa-lg mr-3"></i> Analytics</a></li>
-                   </ul>
-                   <ul class="navbar-nav flex-column">
+                       <li class="navbar-item"><a href="#dashboard" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-house-user text-light fa-lg mr-3"></i>Dashboard</a></li>
+                       <li class="navbar-item"><a href="groups.html" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-layer-group text-light fa-lg mr-3"></i> Groups</a></li>
+                       <li class="navbar-item"><a href="questions.html" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-question-circle text-light fa-lg mr-3"></i> Questions </a></li>
+                       <li class="navbar-item"><a href="#analytics" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-chart-line text-light fa-lg mr-3"></i> Analytics</a></li>
                        <li class="navbar-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-wrench text-light fa-lg mr-3"></i> Settings </a></li>
-                   </ul>
-                   <ul class="navbar-nav flex-column">
+                       <li class="navbar-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-house-user text-light fa-lg mr-3"></i> Dashboard</a></li>
+                       <li class="navbar-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-house-user text-light fa-lg mr-3"></i> Dashboard</a></li>
                        <li class="navbar-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-house-user text-light fa-lg mr-3"></i> Dashboard</a></li>
                    </ul>
-                   <ul class="navbar-nav flex-column">
-                       <li class="navbar-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-house-user text-light fa-lg mr-3"></i> Dashboard</a></li>
-                   </ul>
-                   <ul class="navbar-nav flex-column">
-                       <li class="navbar-item"><a href="#" class="nav-link text-white p-2 mb-2 sidebar-link "> <i class="fas fa-house-user text-light fa-lg mr-3"></i> Dashboard</a></li>
-                   </ul>
-
                </div>
            </div>
                <!------------------------------End of sidebars-------------------------------------------->
@@ -83,7 +68,7 @@
                                Add Questions
                                <span class="caret"></span>
                            </button>
-                           <ul class="dropdown-menu  " aria-labelledby="dropdownMenu1">
+                           <ul class="dropdown-menu px-3  " aria-labelledby="dropdownMenu1">
                                <li><a type="button" data-toggle="modal" data-target="#addPage">Add question</a></li>
                                <li><a href="#">  Add Post</a></li>
                                <li><a href="#">  Add User</a></li>
@@ -140,25 +125,38 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-group">
-                        <label>Page Title</label>
-                        <input type="text" class="form-control" placeholder="Page Title">
+                        <label>Groups</label>
+                        <input type="text" class="form-control" placeholder="Group Name">
                     </div>
                     <div class="form-group">
-                        <label>Page Body</label>
-                        <textarea name="editor1" class="form-control" placeholder="Page Body"></textarea>
+                        <label>Question</label>
+                        <textarea name="editor1" class="form-control" placeholder="Add question"></textarea>
                     </div>
                     <div class="checkbox">
                         <label>
                             <input type="checkbox"> Published
+
                         </label>
                     </div>
                     <div class="form-group">
-                        <label>Meta Tags</label>
-                        <input type="text" class="form-control" placeholder="Add Some Tags...">
+                        <label>1</label>
+                        <input type="text" class="form-control" placeholder="Add option...">
                     </div>
                     <div class="form-group">
-                        <label>Meta Description</label>
-                        <input type="text" class="form-control" placeholder="Add Meta Description...">
+                        <label>2</label>
+                        <input type="text" class="form-control" placeholder="Add option...">
+                    </div>
+                    <div class="form-group">
+                        <label>3</label>
+                        <input type="text" class="form-control" placeholder="Add option...">
+                    </div>
+                    <div class="form-group">
+                        <label>4</label>
+                        <input type="text" class="form-control" placeholder="Add option...">
+                    </div>
+                    <div class="form-group">
+                        <label>Correct answer</label>
+                        <input type="text" class="form-control" placeholder="Write down the correct answer!!">
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -173,7 +171,7 @@
 <!------------------------------------------------End of model-------------------------------------------->
 <!---------------------------------------------------cards------------------------------------------------------------>
 <section>
-    <div class="container-fluid">
+    <div id="dashboard" class="container-fluid">
         <div class="row">
             <div class="col-xl-10 col-lg-10 ml-auto">
                 <div class="row pt-sm-5  mb-5 ">
@@ -242,282 +240,84 @@
         <div class="row mb-5">
             <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
                 <div class="row">
-                    <div class="col-xl-6 col-12 mb-4">
-                        <h4 class="text-muted text-center mb-3">Statistics per Questions</h4>
-                        <table class="table table-hover table-sm text-center">
-                        <thead>
-                        <tr class="text-muted">
-                            <th>#</th>
-                            <th>Question</th>
-                            <th>Attempts</th>
-                            <th>Fails</th>
-                            <th>Success</th>
-                        </tr>
-                        </thead>
-                            <tbody>
-                            <tr>
-                                <th>1</th>
-                                <td>What is the correct syntax for referring to an external script called 'xxx.js'?</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                            <tbody>
-                            <tr>
-                                <th>2</th>
-                                <td>How do you write "Hello World" in an alert box?</td>
-                                <td>6</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                            <tbody>
-                            <tr>
-                                <th>3</th>
-                                <td>The external JavaScript file must contain the script tag.</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                            <tbody>
-                            <tr>
-                                <th>4</th>
-                                <td>Inside which HTML element do we put the JavaScript?</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                        </table>
-<!------------------------------------pagination------------------------------------------------------>
-                        <nav>
-                            <ul class="pagination justify-content-center ">
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        <span>&laquo;</span>
-                                    </a>
-                                </li>
-                                <li class="page-item active">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        1
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        2
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        3
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        <span>&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-<!------------------------------------End of pagination----------------------------------------------->
-
-                    <div class="col-xl-6 col-12">
-                        <h4 class="text-muted text-center mb-3">Most popular Question</h4>
-                        <table class="table table-hover table-sm text-center ">
-                            <thead>
-                            <tr class="text-muted">
-                                <th>#</th>
-                                <th>Question</th>
-                                <th>Attempts</th>
-                                <th>Fails</th>
-                                <th>Success</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <th>1</th>
-                                <td>What is the correct syntax for referring to an external script called 'xxx.js'?</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                            <tbody>
-                            <tr>
-                                <th>2</th>
-                                <td>How do you write "Hello World" in an alert box?</td>
-                                <td>6</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                            <tbody>
-                            <tr>
-                                <th>3</th>
-                                <td>The external JavaScript file must contain the script tag.</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                            <tbody>
-                            <tr>
-                                <th>4</th>
-                                <td>Inside which HTML element do we put the JavaScript?</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                        </table>
-<!-- ----------------------------------start pagination------------------->
-                        <nav>
-                            <ul class="pagination justify-content-center ">
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        <span>&laquo;</span>
-                                    </a>
-                                </li>
-                                <li class="page-item active">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        1
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        2
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        3
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        <span>&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-
-<!--------------------------start of hight fails table------------------>
-                    </div>
-                    <div class="col-xl-6 col-12">
-                        <h4 class="text-muted text-center mb-3">Questions with highest fails</h4>
-                        <table class="table table-hover table-sm text-center">
-                            <thead>
-                            <tr class="text-muted">
-                                <th>#</th>
-                                <th>Question</th>
-                                <th>Attempts</th>
-                                <th>Fails</th>
-                                <th>Success</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <th>1</th>
-                                <td>What is the correct syntax for referring to an external script called 'xxx.js'?</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                            <tbody>
-                            <tr>
-                                <th>2</th>
-                                <td>How do you write "Hello World" in an alert box?</td>
-                                <td>6</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                            <tbody>
-                            <tr>
-                                <th>3</th>
-                                <td>The external JavaScript file must contain the script tag.</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                            <tbody>
-                            <tr>
-                                <th>4</th>
-                                <td>Inside which HTML element do we put the JavaScript?</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>1</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <!--                         start---------pagination-->
-                        <nav>
-                            <ul class="pagination justify-content-center ">
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        <span>&laquo;</span>
-                                    </a>
-                                </li>
-                                <li class="page-item active">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        1
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        2
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        3
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link py-2 px-3">
-                                        <span>&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-<!----------------------------------------end of highest fails------------------------------------->
-<!---------------------------------------------table examples----------------------->
                         <div class="col-12">
-                            <h4 class="text-muted text-center mb-3">Most popular Question</h4>
+                            <h4 id="analytics" class="text-muted text-center mb-3">Statistics of the question</h4>
                             <table id="example" class="display" style="width:100%">
                                 <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Position</th>
-                                    <th>Office</th>
-                                    <th>Age</th>
-                                    <th>Start date</th>
-                                    <th>Salary</th>
+                                    <th>Numbers</th>
+                                    <th>Questions</th>
+                                    <th>Groups</th>
+                                    <th>Attempts</th>
+                                    <th>Fails</th>
+                                    <th>Success</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>Tiger Nixon</td>
-                                    <td>System Architect</td>
-                                    <td>Edinburgh</td>
+                                    <td>1</td>
+                                    <td>What is the correct syntax for referring to an external script called 'xxx.js'?</td>
+                                    <td>Java 1</td>
                                     <td>61</td>
-                                    <td>2011/04/25</td>
-                                    <td>$320,800</td>
+                                    <td>23</td>
+                                    <td>11</td>
                                 </tr>
                                 <tr>
-                                    <td>Garrett Winters</td>
-                                    <td>Accountant</td>
-                                    <td>Tokyo</td>
+                                    <td>2</td>
+                                    <td>How do you write "Hello World" in an alert box?</td>
+                                    <td>Object oriented programming</td>
                                     <td>63</td>
-                                    <td>2011/07/25</td>
-                                    <td>$170,750</td>
+                                    <td>25</td>
+                                    <td>50</td>
                                 </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>How do you write "Hello World" in an alert box?</td>
+                                    <td>Object oriented programming</td>
+                                    <td>63</td>
+                                    <td>245</td>
+                                    <td>504</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Hwrwrwow do you write "Hello World" in an alert box?</td>
+                                    <td>ject oriented programming</td>
+                                    <td>63</td>
+                                    <td>25</td>
+                                    <td>50</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>How do you write "Hello World" in an alert box?</td>
+                                    <td>Object oriented programming</td>
+                                    <td>636</td>
+                                    <td>255</td>
+                                    <td>50</td>
+                                </tr><tr>
+                                    <td>6</td>
+                                    <td>How do you write "Hello World" in an alert box?</td>
+                                    <td>Object oriented programming</td>
+                                    <td>63</td>
+                                    <td>25</td>
+                                    <td>570</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>How do you write "Hello World" in an alert box?</td>
+                                    <td>programming</td>
+                                    <td>635</td>
+                                    <td>255</td>
+                                    <td>750</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>How do you write "Hello World" in an alert box?</td>
+                                    <td>programming</td>
+                                    <td>6377</td>
+                                    <td>255</td>
+                                    <td>506</td>
+                                </tr>
+
                                 <tr>
                                     <td>Ashton Cox</td>
                                     <td>Junior Technical Author</td>
@@ -961,12 +761,12 @@
                                 </tbody>
                                 <tfoot>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Position</th>
-                                    <th>Office</th>
-                                    <th>Age</th>
-                                    <th>Start date</th>
-                                    <th>Salary</th>
+                                    <th>Numbers</th>
+                                    <th>Questions</th>
+                                    <th>Groups</th>
+                                    <th>Attempts</th>
+                                    <th>Fails</th>
+                                    <th>Success</th>
                                 </tr>
                                 </tfoot>
                             </table>
@@ -1014,7 +814,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/a76701079c.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/><!--data table -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/>
 
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.js"></script>
     <script>

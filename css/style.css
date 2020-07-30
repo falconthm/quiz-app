@@ -116,10 +116,11 @@ a:hover{
 }
 
 .top-menu{
-    background: #F2C078;
+    /*background: #F2C078;*/
+    background: transparent;
     color: Black;
     margin-bottom: 0px;
-    
+
 }
 .col-md-6{
     text-align: right ;
@@ -144,28 +145,44 @@ a:hover{
     font-family : "sans-serif";
     font-size: 20px;
 }
-
-
-.option{
+body.home-page{
+    /*background: linear-gradient(rgba(241, 255, 250, .5), rgba(0, 123, 255, 0.25)), url(../images/home1r.jpg) no-repeat;*/
     background: linear-gradient(rgba(241, 255, 250, .5), rgba(0, 123, 255, 0.25)), url(https://picsum.photos/1262/907?random=1) no-repeat;
     background-size: cover;
     /*background: antiquewhite;*/
-    padding: 20px 0;
-    height: 87vh;
+    padding: 8px 0;
+    margin-bottom: 5px;
+    height: 100vh;
+    font-weight: 500;
 }
 
+.option{
+    /*background: linear-gradient(rgba(241, 255, 250, .5), rgba(0, 123, 255, 0.25)), url(../images/home1r.jpg) no-repeat;*/
+    /*background-size: cover;*/
+    /*!*background: antiquewhite;*!*/
+    /*padding: 20px 0;*/
+    /*height: 87vh;*/
+    background-size: cover;
+    height: 87vh;
+}
+.bg-light {
+    background-color: transparent !important;
+}
 /*-------------------------------footer-----------------------------------------------*/
 
 footer {
-    text-align: center;
+
 }
 
 footer {
-    background: #F2C078;
+    text-align: center;
+    /*background: #F2C078;*/
+    background: transparent;
     color: Black;
     display: block;
     overflow: hidden;
     font-family:"sans-serif";
+    font-weight: 600;
 }
 footer .float-left{
     margin: 10px 0;
@@ -202,7 +219,7 @@ footer .float-right{
     margin-right: .1rem;
 }
 .navbar{
-padding: 0px;
+    padding: 0px;
 }
 
 /*------------------------------------------Admin panel-----------------------------------------------------*/
