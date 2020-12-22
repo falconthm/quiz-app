@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'you seem to request access to a certain repository but the issue lacks information. Please add the additional information missing:1. What repository 2. Reason for access 2. Kind of access 3. Duration of access'
+        pr-message: 'Message that will be displayed on users'' first pr'
